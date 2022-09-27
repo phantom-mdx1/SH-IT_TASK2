@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 1000px;
+    width: 1440;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/restaurant\ 1.png);
+    background-size: cover;
+}
+
+.container .text {
+    position: absolute;
+}
+
+.container .text .title {
+    width: 830px;
+    height: 186px;
+    left: 309px;
+    top: 288px;
+}
+
+.container .text h1 {
+    position: absolute;
+    width: 830px;
+    height: 75px;
+    left: 1px;
+    top: 1px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: white;
+}
+
+.container .text h1 span {
+    font-weight: bold;
+}
+
+.container .text p {
+    position: absolute;
+    width: 822px;
+    height: 62px;
+    left: 1px;
+    top: 124px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+.container .text .buttons #one {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 260px;
+    left: 151px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 30px;
+    background: #FFFFFF;
+    border: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container .text .buttons #two {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 260px;
+    left: 421px;
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 30px;
+    background: #FFFFFF;
+    border: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container .img-1 {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 481px;
+    left: 55px;
+    cursor: pointer;
+}
+
+.container .img-2 {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 481px;
+    right: 60px;
+    cursor: pointer;
+}
